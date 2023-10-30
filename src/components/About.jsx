@@ -18,11 +18,10 @@ const About = () => {
           Kit, Axios, Tailwind and many more.
         </p>
 
-        <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
+        <p></p>
 
         <p>
-          In my spare time I create YouTube videos and write blogs on my Blog.
-          Where I talk about programming theory and build various projects.
+     
         </p>
       </div>
 

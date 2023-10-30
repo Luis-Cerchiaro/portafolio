@@ -1,37 +1,45 @@
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
+import weatherApp from "../assets/weatherApp.jpeg";
+import infogalax from "../assets/infogalax.jpeg";
+import userManager from "../assets/userManager.jpeg";
+import pokedex from "../assets/pokedex.jpeg";
+import rickAndMorty from "../assets/rickAndMorty.jpeg";
 
 const Projects = () => {
     const projects = [
         {
-          img: devlog,
-          title: "devlog",
-          desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-          live: "https://devlogg.onrender.com/",
-          code: "https://github.com/Coderamrin/devlog",
+          img: infogalax,
+          title: "Infogalax",
+          desc: "A gallery of random facts about space. Built with Node.js, React, and CSS.",
+          live: "https://melodic-narwhal-8705b8.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/entregable_1",
         },
         {
-          img: uilogs,
-          title: "uilogs",
-          desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-          live: "https://uilogs.xyz/",
-          code: "https://github.com/Coderamrin/html-templates",
+          img: weatherApp,
+          title: "weatherApp",
+          desc: "App to get the weather based in the user location, data from openweather. Built with Axios, Tailwind CSS and JavaScript.",
+          live: "https://sweet-bonbon-4cb386.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/entregable_2",
         },
         {
-          img: cssProjects,
-          title: "css projects",
-          desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-          live: "https://build-10-css-projects.netlify.app/",
-          code: "https://github.com/Coderamrin/build-10-css-projects",
+          img: userManager,
+          title: "User Manager",
+          desc: "A basic user manager using AXIOS to read, post and edit an user, Built with Axios, Tailwind CSS and JavaScript.",
+          live: "https://heartfelt-llama-14c6f5.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/entregable_4_V01",
         },
         {
-          img: getInspirred,
-          title: "get Inspirred",
-          desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-          live: "https://get-inspirred.netlify.app/",
-          code: "https://github.com/Coderamrin/get-inspired",
+          img: pokedex,
+          title: "Pokedex",
+          desc: "Just for fun!!! a pokedex for the pokemons trainers.  Built with Axios, Tailwind CSS, Redux, React-Router-DOM and JavaScript.",
+          live: "https://celebrated-vacherin-2a519d.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/entregable_5",
+        },
+        {
+          img: rickAndMorty,
+          title: "Rick and Morty APP",
+          desc: "Just for fun!!! a guide of all known dimmensions in Rick and Morty.  Built with Axios, Tailwind CSS and JavaScript.",
+          live: "https://celebrated-vacherin-2a519d.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/entregable_3",
         },
       ];
   
@@ -45,7 +53,7 @@ const Projects = () => {
 
         <p className="pb-5">
           These are some of my best projects. I have built these with React,
-          MERN and vanilla CSS. Check them out.
+          AXIOS, Tailwind CSS. Check them out.
         </p>
       </div>
 
@@ -65,13 +73,13 @@ const Projects = () => {
               <div className="mx-auto">
                 <a
                   href={project.live}
-                  className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
+                  className="px-5 py-2 bg-blue-400 hover:bg-blue-700 mr-5 font-bold"
                 >
                   Live
                 </a>
                 <a
                   href={project.code}
-                  className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                  className="px-5 py-2 bg-blue-400 hover:bg-blue-800 font-bold"
                 >
                   Code
                 </a>
