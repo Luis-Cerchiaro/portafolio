@@ -15,16 +15,16 @@ body {
     background: #0F172A;
 }
 
-.bg-secondery {
+.bg-secondary {
     background: #1E293B;
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #2392d4ff;
 }
 
 .text-accent {
-    color: #7477FF;
+    color: #2392d4ff;
 }
 
 
@@ -33,7 +33,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #2392d4ff;
 }
 
 .mobile-nav {
@@ -43,6 +43,6 @@ nav li a:hover {
 
 /* hero */
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Noto Sans', 'Roboto', sans-serif;
     line-height: 1.5 !important;
 }
