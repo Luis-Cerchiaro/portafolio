@@ -1,0 +1,17 @@
+{
+    "about-me": "About Me",
+    "about-description-01": "Hi, My Name is Luis Cerchiaro. I am a Junior Frontend Developer. I build apps with React, Tailwind CSS and Node JS.",
+    "about-description-02":"I am proficient in Frontend skills like React.JS, Redux, Redux Tool Kit, Axios, Tailwind and in Backend I enjoy work with PERN stack.",
+    "contact-me": "Contact Me",
+    "contact-description":"I am currently open for a fulltime Frontend Developer role. If you want to discuss about that feel free to email me.",  
+    "contact-email": "Email:",
+    "hero-intro-00": "Hi",
+    "hero-intro-01": "I am",
+    "hero-intro-02": "Web Fullstack Developer",
+    "hero-description-00": " I am proficient in JavaScript, React.JS and Node.JS",
+    "hero-button-projects-00": "See Projects",
+    "header-about": "About",
+    "header-projects": "Projects",
+    "header-contact": "Contact",
+    "header-resume": "Resume"
+}

@@ -1,0 +1,17 @@
+{
+    "about-me": "Acerca de mi",
+    "about-description-01": "Hola, me llamo Luis Cerchiaro. Soy un desarrollador web fullstack. Mis tecnologias para contruir aplicaciones son React, Javascript y Node JS.",
+    "about-description-02":"Tengo un amplio dominio de habilidades en React.JS, Redux, Redux Tool Kit, Axios, Tailwind y en Backend disfruto trabajar con PERN stack.",
+    "contact-me": "Contactame",
+    "contact-description":"Estoy buscando una oportunidad como desarrollador fullstack. Si estas interesado escribeme",                
+    "contact-email": "Correo Electronico:",
+    "hero-intro-00": "Hola",
+    "hero-intro-01": "Soy",
+    "hero-intro-02": "Desarrolador Web Fullstack",
+    "hero-description-00": "Tengo conocimiento avanzado en JavaScript, React.js y Node.JS",
+    "hero-button-projects-00": "Ver Proyectos",
+    "header-about": "Acerca",
+    "header-projects": "Proyectos",
+    "header-contact": "Contacto",
+    "header-resume": "CV"      
+}

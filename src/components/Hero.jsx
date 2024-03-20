@@ -1,18 +1,21 @@
+import { useTranslation } from "react-i18next";
 import thinkerHeroImg from "../assets/thinkerHero.svg";
 import { IconBrandLinkedin, IconBrandX, IconBrandYoutubeFilled } from "@tabler/icons-react"
 
 const Hero = () => {
+  const {t} = useTranslation();
+
   return (
     <section className="bg-primary px-5 text-white py-32">
     <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
       <div className="hero-info pb-5 md:pb-0">
         <h1 className="text-4xl lg:text-6xl">
-          Hi, <br />I am <span className="text-accent">L</span>uis <br />
-          Frontend Developer
+          {t("hero-intro-00")}, <br />{t("hero-intro-01")} <span className="text-accent">L</span>uis <br />
+          {t("hero-intro-02")} 
         </h1>
 
         <p className="py-5">
-          I am proficient in JavaScript, React.js and Tailwind CSS
+        {t("hero-description-00")}
         </p>
 
         <div className="flex py-5 ">
@@ -36,7 +39,7 @@ const Hero = () => {
           href="/#projects"
           className="btn bg-accent  border-2 border-[#2392d4ff] text-white px-6 py-3 hover:bg-transparent"
         >
-          See Projects
+          {t("hero-button-projects-00")}
         </a>
       </div>
 
