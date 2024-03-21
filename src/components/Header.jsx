@@ -47,7 +47,7 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <select defaultValue={i18n.language} onChange={onChangeLang}>
+            <select  defaultValue={i18n.language} onChange={onChangeLang}>
               {LANGUAGES.map(({ code, label }) => (
                 <option key={code} value={code}>
                   {label}

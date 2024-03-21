@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import thinkerHeroImg from "../assets/thinkerHero.svg";
-import { IconBrandLinkedin, IconBrandX, IconBrandYoutubeFilled } from "@tabler/icons-react"
+import { IconBrandLinkedin, IconBrandX } from "@tabler/icons-react"
 
 const Hero = () => {
   const {t} = useTranslation();
@@ -23,14 +23,12 @@ const Hero = () => {
             href="https://twitter.com/cerchiaro_luis"
             className="pr-4 inline-block text-accent hover:text-white"
           >
-            {" "}
             <IconBrandX size={40} />{" "}
           </a>
           <a
             href="https://www.linkedin.com/in/luis-cerchiaro-4b2129191/"
             className="pr-4 inline-block text-accent hover:text-white"
           >
-            {" "}
             <IconBrandLinkedin size={40} />{" "}
           </a>
         </div>

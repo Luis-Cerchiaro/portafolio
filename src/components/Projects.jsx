@@ -1,4 +1,4 @@
-
+import { useTranslation } from "react-i18next";
 
 import weatherApp from "../assets/weatherApp.jpeg";
 import infogalax from "../assets/infogalax.jpeg";
@@ -7,6 +7,9 @@ import pokedex from "../assets/pokedex.jpeg";
 import rickAndMorty from "../assets/rickAndMorty.jpeg";
 
 const Projects = () => {
+
+  const { t } = useTranslation();
+
     const projects = [
         {
           img: infogalax,
@@ -45,17 +48,18 @@ const Projects = () => {
         },
       ];
   
+      
+
     return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
     <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
       <div className="about-info mb-5">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-[#2392d4ff] pb-2">
-          Projects
+        {t("projects-title")}
         </h2>
 
         <p className="pb-5">
-          These are some of my best projects. I have built these with React,
-          AXIOS, Tailwind CSS. Check them out.
+        {t("projects-main")}
         </p>
       </div>
 
