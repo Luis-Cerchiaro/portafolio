@@ -68,3 +68,21 @@ select {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+  .contact-form-card{
+    width: 300px;
+    padding: 15px;
+    margin:auto;
+    border-radius: 10px;
+    background-color: #1E293B;
+color: black;
+  }
+
+  #contact-form-disclaimer{
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  
+  #contact-form-disclaimer-green-text{
+    color:green;
+  }
