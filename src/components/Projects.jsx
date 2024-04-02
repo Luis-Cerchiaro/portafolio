@@ -5,6 +5,8 @@ import infogalax from "../assets/infogalax.jpeg";
 import userManager from "../assets/userManager.jpeg";
 import pokedex from "../assets/pokedex.jpeg";
 import rickAndMorty from "../assets/rickAndMorty.jpeg";
+import movieApp from "../assets/movieApp.png"
+import webStore from "../assets/webStore.png"
 
 const Projects = () => {
 
