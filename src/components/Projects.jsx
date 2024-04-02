@@ -46,6 +46,20 @@ const Projects = () => {
           live: "https://celebrated-vacherin-2a519d.netlify.app/",
           code: "https://github.com/Luis-Cerchiaro/entregable_3",
         },
+        {
+          img: movieApp,
+          title: "Movie APP",
+          desc: "An app built with a custom API to save and filter my favorites movies accordinging to genre, actors and directors",
+          live: "https://jazzy-sunflower-26b2cf.netlify.app/",
+          code: "https://gitlab.com/luisCerchiaro/moviesapp",
+        },
+        {
+          img: webStore,
+          title: "E-Commerce",
+          desc: "An online web store with user creation and authentication",
+          live: "https://frabjous-palmier-7e84a2.netlify.app/",
+          code: "https://github.com/Luis-Cerchiaro/trabajo_final",
+        },
       ];
   
       
